@@ -1,4 +1,4 @@
-module golang.org/x/mobile
+module github.com/coming-chat/gomobile
 
 go 1.16
 
