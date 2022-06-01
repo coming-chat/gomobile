@@ -1338,7 +1338,7 @@ func (g *ObjcGen) objcType(typ types.Type) string {
 		case types.Float64, types.UntypedFloat:
 			return "double"
 		case types.String, types.UntypedString:
-			return "NSString* _Nonnull"
+			return "NSString* _Nullable"
 		default:
 			g.errorf("unsupported type: %s", typ)
 			return "TODO"
